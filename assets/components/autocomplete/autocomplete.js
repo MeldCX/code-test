@@ -5,7 +5,7 @@
 import css from 'css-loader!sass-loader!./autocomplete.scss';
 const CSS = css.toString();
 
-import HTML from 'autocomplete.html';
+import HTML from './autocomplete.html';
 
 /**
  * @class
