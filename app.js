@@ -1,6 +1,7 @@
 // ------------------------------------------------------------- Require modules
 const express = require('express');
 const request = require('request');
+const cors = require('cors');
 
 // -------------------------------------------------------- Setup main variables
 const app = express();
@@ -10,6 +11,10 @@ const numberOfUsers = 20;
 const apiPath = `https://randomuser.me/api/?results=${numberOfUsers}&nat=au`;
 
 // ---------------------------------------------------------------------- Routes
+
+// Add cors headers
+app.use(cors());
+
 // Setup static file routes
 app.use(express.static(publicPath));
 

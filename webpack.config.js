@@ -29,6 +29,10 @@ module.exports = {
                 loader: 'html-loader'
             },
             {
+                test: /\.svg$/,
+                loader: 'file-loader'
+            },
+            {
                 test: /\.scss/,
                 include: /base\.scss/,
                 loader: cssExtract.extract(['css-loader', 'sass-loader'])
