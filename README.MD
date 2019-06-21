@@ -60,7 +60,7 @@ edge functionality as we only run on Chrome. **We'll be testing you on your use
 and knowledge of ES6 features etc**.
 
 #### Commenting and documentation
-All classes and methods should follow the [JSDoc standard](usejsdoc.org). At
+All classes and methods should follow the [JSDoc standard](https://jsdoc.app/). At
 MeldCX we use code comments to generate our docs.
 
 #### Linting
@@ -94,7 +94,7 @@ Run `npm start` to run a local webserver, then visit
 
 
 ## Submissions
-Send your code as a zipped folder to hello@meldcx.com. **Please do not include
+Send your code as a zipped folder. **Please do not include
 `node_modules` or `dist` in the .zip**
 
 ---
